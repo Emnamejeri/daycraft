@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <navbar />
+  <bodytext />
+  <advicedisplay />
+  <footerc />
+  <days />
+  <habits />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import navbar from "./components/navbar";
+import bodytext from "./components/bodytext";
+import advicedisplay from "./components/advicedisplay";
+import habits from "./components/habits";
+import days from "./components/days";
+import footerc from "./components/footerc";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { navbar, bodytext, advicedisplay, habits, days, footerc },
+};
 </script>
 
 <style>
@@ -21,6 +27,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 2vh;
+  border: 3px solid red;
 }
 </style>
