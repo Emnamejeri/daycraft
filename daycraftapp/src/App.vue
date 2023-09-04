@@ -4,7 +4,7 @@
   <AdviceDisplay />
   <FooterSection />
   <DaysContent />
-  <HabitsList />
+  <habitsList />
 </template>
 
 <script>
@@ -13,7 +13,8 @@ import BodyText from "./components/bodyText.vue";
 import AdviceDisplay from "./components/adviceDisplay.vue";
 import FooterSection from "./components/footerSection.vue";
 import DaysContent from "./components/daysContent.vue";
-import HabitsList from "./components/habitsList.vue";
+import habitsList from "./components/habitsList.vue";
+
 export default {
   name: "App",
   components: {
@@ -21,7 +22,7 @@ export default {
     BodyText,
     FooterSection,
     DaysContent,
-    HabitsList,
+    habitsList,
     AdviceDisplay,
   },
 };
