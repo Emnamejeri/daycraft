@@ -26,13 +26,12 @@
 }
 .navbar-brand {
   font-family: "Borel", cursive;
-
   font-weight: bold;
   font-size: 38px;
 }
 </style>
 <script>
 export default {
-  name: "navbar",
+  name: "navigationComponent",
 };
 </script>

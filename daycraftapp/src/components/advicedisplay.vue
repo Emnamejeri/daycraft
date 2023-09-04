@@ -60,6 +60,6 @@
 </style>
 <script>
 export default {
-  name: "advicedisplay",
+  name: "adviceDisplay",
 };
 </script>

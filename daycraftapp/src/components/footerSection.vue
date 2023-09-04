@@ -17,7 +17,6 @@
   </footer>
 </template>
 <style scoped>
-/* Reset some default styles for the body and html elements */
 body,
 html {
   height: 100%;
@@ -46,7 +45,6 @@ html {
   align-items: center;
 }
 
-/* Styling the social icons */
 #social-icons a {
   margin: 0 10px;
   color: #ffc60b;
@@ -61,6 +59,6 @@ html {
 </style>
 <script>
 export default {
-  name: "footerc",
+  name: "footerSection",
 };
 </script>

@@ -36,6 +36,6 @@ header {
 </style>
 <script>
 export default {
-  name: "bodytext",
+  name: "bodyText",
 };
 </script>
